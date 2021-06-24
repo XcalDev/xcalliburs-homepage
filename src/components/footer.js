@@ -24,7 +24,7 @@ class Footer extends React.Component {
       <div className="text-center flex items-center justify-between flex-col flex-wrap bg-gray-400 shadow-xl p-6 bottom-0">
         <div className="flex items-center flex-shrink-0 text-white mx-auto">
           <span className={"font-semibold tracking-tight text-base " + styles.blue}>
-            {"© 2020 Elliot M." + (this.state.width >= 1024 ? " • " : "")}{this.state.width >= 1024 ? <></> : <br />}
+            {`© ${new Date().getFullYear()} Elliot M. ${this.state.width >= 1024 ? " • " : ""}`}{this.state.width >= 1024 ? <></> : <br />}
             <a href="mailto: xcal@xcal.dev" target="_blank" rel="noopener noreferrer">{this.state.width > 363 ? "Contact Me: " : ""}
               <span className="hover:underline">xcal@xcal.dev</span>
             </a>

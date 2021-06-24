@@ -4,41 +4,41 @@
     "link": "https://github.com/Xcallibur8",
     "username": "@Xcallibur8",
     "icon": "fab fa-github",
-    "colors": "bg-gradient-to-tr from-green-500 to-green-800 hover:opacity-90"
+    "colors": "bg-gradient-to-tr from-green-500 to-green-800"
   },
   {
     "type": "Steam",
     "link": "https://steamcommunity.com/id/Xcallibur/",
     "username": "Xcallibur",
     "icon": "fab fa-steam",
-    "colors": "bg-gradient-to-tr from-blue-500 to-indigo-800 hover:opacity-90"
+    "colors": "bg-gradient-to-tr from-blue-500 to-indigo-800"
   },
   {
     "type": "Discord",
     "link": "https://discord.com/channels/@me",
     "username": "Xcallibur#5876",
     "icon": "fab fa-discord",
-    "colors": "bg-gradient-to-tr from-indigo-600 to-purple-800 hover:opacity-90"
+    "colors": "bg-gradient-to-tr from-indigo-600 to-purple-800"
   },
   {
     "type": "Twitter",
     "link": "https://twitter.com/xcallibur8",
     "username": "@xcallibur8",
     "icon": "fab fa-twitter",
-    "colors": "bg-gradient-to-tr from-pink-500 to-red-600 hover:opacity-85"
+    "colors": "bg-gradient-to-tr from-pink-500 to-red-600"
   },
   {
     "type": "Reddit",
     "link": "https://reddit.com/u/xcallibur232",
     "username": "xcallibur232",
     "icon": "fab fa-reddit-alien",
-    "colors": "bg-gradient-to-tr from-red-500 to-orange-600 hover:opacity-85"
+    "colors": "bg-gradient-to-tr from-red-500 to-orange-600"
   },
   {
     "type": "Email",
     "link": "mailto: xcal@xcal.dev",
     "username": "xcal@xcal.dev",
     "icon": "fas fa-envelope-open-text",
-    "colors": "bg-gradient-to-tr from-orange-400 to-yellow-600 hover:opacity-85"
+    "colors": "bg-gradient-to-tr from-orange-500 to-yellow-600"
   }
 ]

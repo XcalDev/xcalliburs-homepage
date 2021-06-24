@@ -17,7 +17,7 @@ export default function Header(props) {
     return _ => window.removeEventListener('resize', handleResize)
   })
 
-  document.documentElement.style.setProperty('--top-spacing', (dimensions.height >= 496 ? '100px' : '50px'));
+  document.documentElement.style.setProperty('--top-spacing', (dimensions.height >= 496 ? '90px' : '50px'));
 
   return (
     <div className="z-10 outer-container overflow-hidden">

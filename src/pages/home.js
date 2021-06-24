@@ -5,14 +5,16 @@ export default function HomePage(props) {
 
   const linkButtons = []
 
+  window.scrollTo(0, 0);
+
   for (let l in links) {
     const link = links[l]
     linkButtons.push(
       <a href={link.link} rel="external noreferrer nofollow noopener" target="_blank">
-        <div className={`font-semibold active:scale-90 transition-all transform duration-300 rounded ${link.colors}`}>
+        <div className={`font-semibold active:scale-95 hover:scale-105 transition-all transform duration-300 rounded ${link.colors}`}>
           <div className="text-xl md:text-2xl p-5 sm:grid sm:grid-cols-2">
             <div className="text-white text-center sm:text-left">
-              <i className={`${link.icon} mx-2`} />
+              <i className={`${link.icon} sm:mx-2`} />
               <span className="ml-2">{link.type}</span>
             </div>
             <div className="text-gray-300 text-center sm:text-right">
@@ -34,11 +36,11 @@ export default function HomePage(props) {
       </p>
       <hr className="my-4" />
       <div className="flex">
-        <div class="flex-none w-1/6 sm:w-1/5" />
+        <div class="flex-none w-1/12 sm:w-1/5" />
         <div class="flex-grow grid gap-y-3">
           {linkButtons}
         </div>
-        <div class="flex-none w-1/6 sm:w-1/5 " />
+        <div class="flex-none w-1/12 sm:w-1/5 " />
       </div>
     </div>
   );
