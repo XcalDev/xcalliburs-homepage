@@ -2,7 +2,6 @@
   "name": "xcalliburs_homepage",
   "version": "1.0.0",
   "private": true,
-  "proxy": "https://xcal.dev",
   "homepage": "https://xcal.dev",
   "dependencies": {
     "@babel/preset-react": "^7.10.4",
