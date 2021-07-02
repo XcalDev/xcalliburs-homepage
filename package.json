@@ -2,7 +2,7 @@
   "name": "xcalliburs_homepage",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://xcal.dev",
+  "homepage": "https://xcallibur8.github.io/xcalliburs-homepage/",
   "dependencies": {
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.4",
