@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0782e642a44ed5e9381341a0181e82f",
+    "revision": "fe91fd7c40a53e7b566e66dfa442ec79",
     "url": "https://xcal.dev/index.html"
   },
   {
