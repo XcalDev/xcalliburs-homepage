@@ -29,4 +29,6 @@ jobs:
         run: yarn
 
       - name: Deploy to Github pages
+        env:
+          CI: false
         run: yarn deploy
