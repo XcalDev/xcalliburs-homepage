@@ -1,12 +1,5 @@
 [
   {
-    "type": "GitHub",
-    "link": "https://github.com/Xcallibur8",
-    "username": "@Xcallibur8",
-    "icon": "fab fa-github",
-    "colors": "bg-gradient-to-tr from-green-500 to-green-800"
-  },
-  {
     "type": "Steam",
     "link": "https://steamcommunity.com/id/Xcallibur/",
     "username": "Xcallibur",
