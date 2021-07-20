@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://xcal.dev/static/css/main.b6372b7e.chunk.css",
-    "main.js": "https://xcal.dev/static/js/main.6d805890.chunk.js",
-    "main.js.map": "https://xcal.dev/static/js/main.6d805890.chunk.js.map",
+    "main.js": "https://xcal.dev/static/js/main.b3d1b70b.chunk.js",
+    "main.js.map": "https://xcal.dev/static/js/main.b3d1b70b.chunk.js.map",
     "runtime-main.js": "https://xcal.dev/static/js/runtime-main.fce1b8fd.js",
     "runtime-main.js.map": "https://xcal.dev/static/js/runtime-main.fce1b8fd.js.map",
     "static/js/2.2b57e162.chunk.js": "https://xcal.dev/static/js/2.2b57e162.chunk.js",
     "static/js/2.2b57e162.chunk.js.map": "https://xcal.dev/static/js/2.2b57e162.chunk.js.map",
     "index.html": "https://xcal.dev/index.html",
-    "precache-manifest.1e5eb21d8e765ee10dc1aaa754a5e415.js": "https://xcal.dev/precache-manifest.1e5eb21d8e765ee10dc1aaa754a5e415.js",
+    "precache-manifest.c4d767c3220c462e5af61f6dc4493fbe.js": "https://xcal.dev/precache-manifest.c4d767c3220c462e5af61f6dc4493fbe.js",
     "service-worker.js": "https://xcal.dev/service-worker.js",
     "static/css/main.b6372b7e.chunk.css.map": "https://xcal.dev/static/css/main.b6372b7e.chunk.css.map",
     "static/js/2.2b57e162.chunk.js.LICENSE.txt": "https://xcal.dev/static/js/2.2b57e162.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fce1b8fd.js",
     "static/js/2.2b57e162.chunk.js",
     "static/css/main.b6372b7e.chunk.css",
-    "static/js/main.6d805890.chunk.js"
+    "static/js/main.b3d1b70b.chunk.js"
   ]
 }
