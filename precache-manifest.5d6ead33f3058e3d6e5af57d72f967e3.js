@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbb35585de07261d266c73df440ef68a",
+    "revision": "52d8a154aa6da45b9e047f6ef9c0f32f",
     "url": "https://xcal.dev/index.html"
   },
   {
-    "revision": "e233ae42eb2be49ca58f",
+    "revision": "ab3107e76c56c4af6625",
     "url": "https://xcal.dev/static/css/main.b6372b7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://xcal.dev/static/js/2.2b57e162.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e233ae42eb2be49ca58f",
-    "url": "https://xcal.dev/static/js/main.ca10a803.chunk.js"
+    "revision": "ab3107e76c56c4af6625",
+    "url": "https://xcal.dev/static/js/main.c4175a44.chunk.js"
   },
   {
     "revision": "7dd9e40c2f5b33f7c707",
