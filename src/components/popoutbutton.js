@@ -1,44 +1,35 @@
 import React from 'react'
-import styles from './button.module.css'
+import { Link } from 'react-router-dom'
 
-const buttonStyle = "cursor-pointer transition duration-150 ease-in-out rounded items-center font-bold focus:outline-none"
-const primaryStyle = "text-white pl-6 transform";
-
-class PopOutButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { width: window.innerWidth, height: window.innerHeight };
-  }
-
-  updateDimensions = () => {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
-  };
-  componentDidMount() {
-    window.addEventListener('resize', this.updateDimensions);
-  }
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateDimensions);
-  }
-
-  render() {
-    return (
-      <div className={`${styles.skewed}`}>
-        <span className={`overflow-visible ${styles.bigButton}`}>
-          <button className={`${styles.skewed} ${buttonStyle} ${primaryStyle} ${styles.primarybutton}`} type={this.props.type}>
-            <div className={`flex`}>
-              <span className={`${styles.unskewed} my-auto flex`}>
-                {this.props.children}
-              </span>
-              {this.state.width > 416 ?
-                <span style={{ backgroundImage: `url(${this.props.img}` }}
-                  className={`${styles.sideImageContainer} ${styles.sideImage} ${(this.props.img || this.state.width >= 768 || this.props.thin ? this.props.thin ? "pr-" + this.props.thin : 'pr-16 lg:pr-32' : 'pr-0')}`} /> : <></>}
-            </div>
-          </button>
-        </span>
-      </div >
-    );
-  }
+export function ExternalLinkButton(props) {
+  return (
+    <a href={props.link ? props.link : "#"} rel={props.link && props.popup ? "external noreferrer nofollow noopener" : ""} target={props.link && props.popup ? "_blank" : ""}>
+      <LinkButton {...props} />
+    </a>
+  );
 }
 
-export default PopOutButton;
+export function InternalLinkButton(props) {
+  return (
+    <Link to={props.link ? props.link : "#"}>
+      <LinkButton {...props} />
+    </Link>
+  );
+}
 
+export function LinkButton(props) {
+  return (
+    <div className={`font-semibold ${props.notScale ? "" : "active:scale-95 hover:scale-105 transition-all transform duration-300"} rounded ${props.colors}`}>
+      <div className={"text-xl md:text-2xl p-5" + (props.username ? " sm:grid sm:grid-cols-2" : "")}>
+        <div className="text-white text-center sm:text-left">
+          <i className={`${props.icon} sm:mx-2`} />
+          <span className="ml-2">{props.type}</span>
+          <p className='text-base sm:text-lg ml-2 font-medium text-slate-200'>{props.description}</p>
+        </div>
+        {props.username ? <div className="text-gray-200 text-center sm:text-right">
+          <p>{props.username}</p>
+        </div> : <></>}
+      </div>
+    </div>
+  );
+}

@@ -1,37 +1,54 @@
 [
   {
+    "type": "GitHub",
+    "link": "https://github.com/xcaldev",
+    "username": "XcalDev",
+    "icon": "fab fa-github",
+    "colors": "bg-gradient-to-tr from-gray-400 to-gray-700",
+    "popup": true
+  },
+  {
     "type": "Steam",
     "link": "https://steamcommunity.com/id/Xcallibur/",
     "username": "Xcallibur",
     "icon": "fab fa-steam",
-    "colors": "bg-gradient-to-tr from-blue-500 to-indigo-800"
+    "colors": "bg-gradient-to-tr from-sky-500 to-indigo-800",
+    "description": "Catch me in late night Factorio sessions",
+    "popup": true
   },
   {
     "type": "Discord",
     "link": "https://discord.gg/f2eQcm4hKE",
     "username": "Xcallibur#0001",
     "icon": "fab fa-discord",
-    "colors": "bg-gradient-to-tr from-indigo-600 to-purple-800"
+    "colors": "bg-gradient-to-tr from-indigo-500 to-indigo-700",
+    "description": "Join the server to access my DMs",
+    "communication": true,
+    "popup": true
   },
   {
     "type": "Twitter",
     "link": "https://twitter.com/xcaldev",
     "username": "@XcalDev",
     "icon": "fab fa-twitter",
-    "colors": "bg-gradient-to-tr from-pink-500 to-red-600"
+    "colors": "bg-gradient-to-tr from-pink-400 to-pink-600",
+    "popup": true
   },
   {
     "type": "Reddit",
     "link": "https://reddit.com/u/xcallibur232",
     "username": "xcallibur232",
     "icon": "fab fa-reddit-alien",
-    "colors": "bg-gradient-to-tr from-red-500 to-orange-600"
+    "colors": "bg-gradient-to-tr from-orange-500 to-orange-600",
+    "popup": true
   },
   {
     "type": "Email",
     "link": "mailto: xcal@xcal.dev",
     "username": "xcal@xcal.dev",
     "icon": "fas fa-envelope-open-text",
-    "colors": "bg-gradient-to-tr from-orange-500 to-yellow-600"
+    "colors": "bg-gradient-to-tr from-amber-500 to-yellow-600",
+    "communication": true,
+    "popup": true
   }
 ]

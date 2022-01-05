@@ -1,0 +1,28 @@
+{
+  "discord": [
+    {
+      "name": "Games Bot",
+      "image": "/pawn.png",
+      "description": "Allows users to play the games Connect Four and UNO, among others, with multiple friends and other server members. Has a global and server-level leaderboard for each game and all-together, and server events can be created.",
+      "button": {
+        "name": "Try It Out",
+        "link": ""
+      }
+    },
+    {
+      "name": "User Blocker By Name",
+      "icon": "fas fa-gavel",
+      "description": ""
+    },
+    {
+      "name": "Robotics Event Stats",
+      "icon": "fas fa-robot",
+      "description": ""
+    },
+    {
+      "name": "Website Interfacer",
+      "icon": "fas fa-blog",
+      "description": ""
+    }
+  ]
+}

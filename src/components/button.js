@@ -7,6 +7,7 @@ const secondaryStyle = "shadow hover:shadow-none inline-flex inline-block align-
 const primaryDisabledStyle = "py-2 px-4 transform bg-gray-300 hover:bg-gray-400";
 const disabledStyle = "cursor-not-allowed py-2 px-4 transform bg-gray-200";
 const secondaryDisabledStyle = "shadow shadow-none inline-flex inline-block align-baseline text-sm py-2 px-3"
+const tertiaryStyle = "border-2 bg-white border-gray-500 hover:border-gray-300 inline-flex inline-block align-baseline text-sm py-2 px-3"
 
 class Button extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Button extends React.Component {
 
     switch (this.props.bstyle) {
       case "primary": return <button className={`${buttonStyle} ${primaryStyle} ${styles.primarybutton}`} type={_type}> {this.props.children} </button>;
+      case "tertiary": return <button className={`${buttonStyle} ${tertiaryStyle}`} type={_type}> {this.props.children} </button>;
       case "secondary": return <button className={`${buttonStyle} ${secondaryStyle} ${styles.secondarybutton}`} type={_type}> {this.props.children} </button>;
       case "disabled": return <button className={`${buttonStyle} ${disabledStyle}`} type={_type}> {this.props.children} </button>;
       case "primaryDisabled": return <button className={`${buttonStyle} ${primaryDisabledStyle}`} type={_type}> {this.props.children} </button>;
